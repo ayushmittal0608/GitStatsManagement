@@ -6,7 +6,21 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000'
-    }
+      "/gitlab": {
+        target: "http://localhost:5000",
+        changeOrigin: true,
+        secure: false,
+      },
+      "/github": {
+        target: "http://localhost:5000",
+        changeOrigin: true,
+        secure: false,
+      },
+       "/api": {
+        target: "http://localhost:5000",
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   }
 })

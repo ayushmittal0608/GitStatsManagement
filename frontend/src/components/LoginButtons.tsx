@@ -27,9 +27,9 @@ const LoginButtons: React.FC<Props> = ({
           padding: "20px",
           fontSize: "1.5rem",
           fontWeight: "bold",
-          backgroundColor: "#24292e",
-          color: "white",
-          border: "none",
+          backgroundColor: "#ffffffff",
+          color: "black",
+          border: "3px solid black",
           borderRadius: "8px",
           cursor: "pointer",
         }}
@@ -43,9 +43,9 @@ const LoginButtons: React.FC<Props> = ({
           padding: "20px",
           fontSize: "1.5rem",
           fontWeight: "bold",
-          backgroundColor: "#fc6d26",
-          color: "white",
-          border: "none",
+          backgroundColor: "#ffffffff",
+          color: "black",
+          border: "3px solid black",
           borderRadius: "8px",
           cursor: "pointer",
         }}
@@ -53,21 +53,7 @@ const LoginButtons: React.FC<Props> = ({
         Login with GitLab
       </button>
 
-      <button
-        onClick={onLoginBitbucket}
-        style={{
-          padding: "20px",
-          fontSize: "1.5rem",
-          fontWeight: "bold",
-          backgroundColor: "#205081",
-          color: "white",
-          border: "none",
-          borderRadius: "8px",
-          cursor: "pointer",
-        }}
-      >
-        Login with Bitbucket
-      </button>
+      
     </div>
   );
 }
