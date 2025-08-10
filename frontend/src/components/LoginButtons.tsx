@@ -3,13 +3,11 @@ import React from "react";
 interface Props {
     onLoginGithub: () => void;
     onLoginGitlab: () => void;
-    onLoginBitbucket: () => void;
 };
 
 const LoginButtons: React.FC<Props> = ({
     onLoginGithub,
     onLoginGitlab,
-    onLoginBitbucket,
 }) => {
     return (
     <div

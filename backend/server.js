@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
-import gitHubRouter from "./github.js";
-import gitlabRouter from "./gitlab.js"; 
+import gitHubRouter from "./routes/github.js";
+import gitlabRouter from "./routes/gitlab.js"; 
 
 dotenv.config();
 

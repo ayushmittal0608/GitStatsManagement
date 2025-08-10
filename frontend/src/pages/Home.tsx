@@ -2,7 +2,7 @@ import LoginButtons from '../components/LoginButtons'
 
 const Home = () => {
   const handleGithubLogin = () => {
-    const clientId = "Ov23lirJKX7q8CuhNstD";
+    const clientId = "";
     const redirectUri = encodeURIComponent("https://crispy-waffle-qrvgxpgj5w4hxv7r-5000.app.github.dev/github/auth/github/callback");
     const scope = "read:user user:email";
     const githubAuthUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}&login`;

@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/AutoReviewContext.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/LoginButtons.tsx","./src/pages/Account.tsx","./src/pages/Home.tsx","./src/pages/RepoDetails.tsx","./src/pages/RepoDetailsGitlab.tsx","./src/pages/Repository.tsx"],"version":"5.8.3"}
