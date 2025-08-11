@@ -49,11 +49,11 @@ GitStats is a tool designed to:
 # Project Setup
 1. Build the docker image
 ```bash
-docker-compose -f docker-compose.yaml build
+docker-compose build
 ```
 2. Start the container
 ```bash
-docker-compose -f docker-compose.yaml up
+docker-compose up
 ```
 # Environment Variables Setup
 Backend
